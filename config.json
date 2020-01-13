@@ -1,0 +1,16 @@
+{
+  "dbconf_dev":{
+    "driver":"mysql",
+    "dbhost":"localhost",
+    "dbuser":"dev_admin",
+    "dbpass":"D3V_C0ntr4s3ny4",
+    "dbname":"dev_proyecto"
+  },
+  "dbconf_pro":{
+    "driver":"mysql",
+    "dbhost":"10.0.2.15",
+    "dbuser":"prod_admin",
+    "dbpass":"PR0D_C0ntr4s3ny4",
+    "dbname":"prod_proyecto"
+  }
+}

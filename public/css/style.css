@@ -1,0 +1,73 @@
+/*RESET UNIVERSAL*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Default*/
+.log_in {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+}
+.caja {
+    border: 2px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home .header {
+    background-color: black;
+    color: white;
+    height: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .nav {
+    background-color: yellow;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.home .nav .user {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home .nav .links {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home .content {
+    background-color: green;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+.home .content .section {
+    background-color: blue;
+    width: 70%;
+}
+.home .content .aside {
+    background-color: purple;
+    width: 30%;
+}
+.home .footer {
+    background-color: black;
+    color: white;
+    height: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+/*Fin Default*/
